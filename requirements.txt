@@ -1,0 +1,6 @@
+transformers
+schedule
+beautifulsoup4
+requests
+pandas
+openai

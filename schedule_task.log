@@ -1,0 +1,458 @@
+2024-12-03 03:17:16,498 - INFO - Starting DART Crawler...
+2024-12-03 03:18:16,568 - INFO - Market open check at 2024-12-03 03:18:16.568270: Closed
+2024-12-03 03:18:16,568 - INFO - Market is closed. Skipping job.
+2024-12-03 03:19:16,636 - INFO - Market open check at 2024-12-03 03:19:16.636946: Closed
+2024-12-03 03:19:16,637 - INFO - Market is closed. Skipping job.
+2024-12-03 03:19:39,349 - INFO - Starting DART Crawler...
+2024-12-03 03:20:39,417 - INFO - Market open check at 2024-12-03 12:20:39.417520: Open
+2024-12-03 03:20:39,417 - INFO - Market is open. Starting job.
+2024-12-03 03:20:39,417 - INFO - DartCrawler initialized.
+2024-12-03 03:20:39,417 - INFO - Fetching disclosures from DART API with parameters: {'crtfc_key': '1de1e50669f96282a58dd16a61ddc9acf7d84971', 'bgn_de': '20241203', 'end_de': '20241203', 'page_no': 1, 'page_count': 100}
+2024-12-03 03:20:39,557 - INFO - Disclosures fetched successfully.
+2024-12-03 03:20:39,558 - INFO - Analyzing disclosures: 78 items found.
+2024-12-03 03:20:39,558 - INFO - Investment-related disclosure found: [기재정정]투자설명서(집합투자증권)(UBS(Lux)채권형펀드(UBS(Lux)BondFund))
+2024-12-03 03:20:39,559 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:39,559 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:39,905 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:39,905 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              
+2024-12-03 03:20:39,906 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:39,906 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:40,217 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:40,217 - INFO - Investment-related disclosure found: 증권발행실적보고서(집합투자증권)(한국투자크레딧포커스ESG증권자투자신탁1호(채권))
+2024-12-03 03:20:40,218 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:40,218 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:40,538 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:40,538 - INFO - Investment-related disclosure found: [기재정정]투자설명서
+2024-12-03 03:20:40,539 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:40,539 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:40,862 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:40,863 - INFO - Investment-related disclosure found: [기재정정]투자판단관련주요경영사항              
+2024-12-03 03:20:40,863 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:40,863 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:41,451 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:41,451 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              (형사재판 1심 판결 결과)
+2024-12-03 03:20:41,451 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:41,451 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:41,760 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:41,761 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.19. 제출 일괄신고서(집합투자증권-신탁형) )
+2024-12-03 03:20:41,761 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:41,761 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,059 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:42,060 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.29. 제출 일괄신고서(집합투자증권-신탁형) )
+2024-12-03 03:20:42,060 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,060 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,366 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:42,367 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.29. 제출 일괄신고서(집합투자증권-신탁형) )
+2024-12-03 03:20:42,367 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,367 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,666 - INFO - Slack notification sent successfully.
+2024-12-03 03:20:42,667 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.29. 제출 일괄신고서(집합투자증권-회사형) )
+2024-12-03 03:20:42,667 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,667 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:20:42,984 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:43,051 - INFO - Market open check at 2024-12-03 12:21:43.051787: Open
+2024-12-03 03:21:43,052 - INFO - Market is open. Starting job.
+2024-12-03 03:21:43,052 - INFO - DartCrawler initialized.
+2024-12-03 03:21:43,052 - INFO - Fetching disclosures from DART API with parameters: {'crtfc_key': '1de1e50669f96282a58dd16a61ddc9acf7d84971', 'bgn_de': '20241203', 'end_de': '20241203', 'page_no': 1, 'page_count': 100}
+2024-12-03 03:21:43,162 - INFO - Disclosures fetched successfully.
+2024-12-03 03:21:43,162 - INFO - Analyzing disclosures: 78 items found.
+2024-12-03 03:21:43,163 - INFO - Investment-related disclosure found: [기재정정]투자설명서(집합투자증권)(UBS(Lux)채권형펀드(UBS(Lux)BondFund))
+2024-12-03 03:21:43,163 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:43,163 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:43,501 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:43,501 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              
+2024-12-03 03:21:43,501 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:43,501 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:43,837 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:43,837 - INFO - Investment-related disclosure found: 증권발행실적보고서(집합투자증권)(한국투자크레딧포커스ESG증권자투자신탁1호(채권))
+2024-12-03 03:21:43,837 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:43,837 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:44,150 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:44,150 - INFO - Investment-related disclosure found: [기재정정]투자설명서
+2024-12-03 03:21:44,150 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:44,150 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:44,448 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:44,448 - INFO - Investment-related disclosure found: [기재정정]투자판단관련주요경영사항              
+2024-12-03 03:21:44,448 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:44,448 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:44,768 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:44,769 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              (형사재판 1심 판결 결과)
+2024-12-03 03:21:44,769 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:44,769 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:45,084 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:45,085 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.19. 제출 일괄신고서(집합투자증권-신탁형) )
+2024-12-03 03:21:45,085 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:45,085 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:45,379 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:45,380 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.29. 제출 일괄신고서(집합투자증권-신탁형) )
+2024-12-03 03:21:45,380 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:45,380 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:45,689 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:45,689 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.29. 제출 일괄신고서(집합투자증권-신탁형) )
+2024-12-03 03:21:45,689 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:45,689 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:46,011 - INFO - Slack notification sent successfully.
+2024-12-03 03:21:46,011 - INFO - Investment-related disclosure found: 효력발생안내( 2024.11.29. 제출 일괄신고서(집합투자증권-회사형) )
+2024-12-03 03:21:46,011 - INFO - Analysis completed: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:46,011 - INFO - Sending Slack notification with message: Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2024-12-03 03:21:46,302 - INFO - Slack notification sent successfully.
