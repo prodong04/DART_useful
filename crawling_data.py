@@ -20,6 +20,7 @@ logging.basicConfig(
 class DartCrawler:
     def __init__(self):
         self.llm = LLM()
+        self.que = {}
         logging.info("DartCrawler initialized.")
 
     def fetch_disclosures(self):
@@ -34,6 +35,7 @@ class DartCrawler:
         logging.info("Fetching disclosures from DART API with parameters: %s", params)
         try:
             response = requests.get(url, params=params)
+
             response.raise_for_status()
             logging.info("Disclosures fetched successfully.")
             return response.json()
@@ -45,16 +47,29 @@ class DartCrawler:
         disclosures = self.fetch_disclosures()
         logging.info("Analyzing disclosures: %d items found.", len(disclosures.get("list", [])))
         for disclosure in disclosures.get("list", []):
+            print(disclosure)
             logging.debug("Processing disclosure: %s", disclosure)
-            if "투자" in disclosure.get("report_nm", ""):
+            if "투자판단관련주요경영사항" in disclosure.get("report_nm", ""):
                 logging.info("Investment-related disclosure found: %s", disclosure["report_nm"])
-                details = disclosure["report_nm"] + "\n" + disclosure["rcept_no"]
+                corp_name = disclosure['corp_name']
+                ticker = disclosure['stock_code']
+                content = disclosure['report_nm']
+                msg = f'corp_name_{corp_name}, ticker_{ticker}, content_{content}'
                 try:
-                    analysis = self.llm.analyze_text(details)
-                    logging.info("Analysis completed: %s", analysis)
-                    self.send_slack_notification(analysis)
+                    self.send_slack_notification(msg)
                 except Exception as e:
                     logging.error("Error during analysis: %s", e)
+            elif "단일판매" or "공급계약체결" in disclosure.get("report_nm", ""):
+                logging.info("Investment-related disclosure found: %s", disclosure["report_nm"])
+                corp_name = disclosure['corp_name']
+                ticker = disclosure['stock_code']
+                content = disclosure['report_nm']
+                msg = f'corp_name_{corp_name}, ticker_{ticker}, content_{content}'
+                try:
+                    self.send_slack_notification(msg)
+                except Exception as e:
+                    logging.error("Error during analysis: %s", e)
+
 
     def send_slack_notification(self, message):
         logging.info("Sending Slack notification with message: %s", message)
@@ -70,17 +85,18 @@ class DartCrawler:
 
 
 def job():
-    if is_market_open():
-        logging.info("Market is open. Starting job.")
-        crawler = DartCrawler()
-        crawler.analyze_and_notify()
-    else:
-        logging.info("Market is closed. Skipping job.")
+    #if is_market_open():
+    logging.info("Market is open. Starting job.")
+    crawler = DartCrawler()
+    crawler.analyze_and_notify()
+    # else:
+    #     logging.info("Market is closed. Skipping job.")
 
-schedule.every(CRAWLING_INTERVAL_MINUTES).minutes.do(job)
+
 
 if __name__ == "__main__":
     logging.info("Starting DART Crawler...")
-    while True:
-        schedule.run_pending()
-        t.sleep(1)
+
+    logging.info("Market is open. Starting job.")
+    crawler = DartCrawler()
+    crawler.analyze_and_notify()

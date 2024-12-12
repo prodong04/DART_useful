@@ -1,9 +1,9 @@
-import openai
+from openai import OpenAI
 from config import OPENAI_API_KEY
 
 class LLM:
     def __init__(self):
-        openai.api_key = OPENAI_API_KEY
+        OpenAI.api_key = OPENAI_API_KEY
 
     def analyze_text(self, text: str, prompt: str = ""):
         # 프롬프트와 공시 내용을 결합
@@ -12,12 +12,19 @@ class LLM:
             {"role": "user", "content": f"{prompt}\n\n{text}"}
         ]
         try:
-            response = openai.ChatCompletion.create(
-                model="gpt-4o-mini",
+            # 메시지 목록을 자동으로 생성해요
+            messages = [
+                {"role": "system", "content": system_input},
+                {"role": "user", "content": user_input}
+            ]
+
+            response = OpenAI().chat.completions.create(
+                model=model,
                 messages=messages,
-                max_tokens=500,
-                temperature=0.7,
+                temperature=temperature,
+                max_tokens=max_tokens  # 최대 토큰 수를 지정해요
             )
-            return response["choices"][0]["message"]["content"]
+            # 생성된 응답을 반환해요
+            return response
         except Exception as e:
             return f"Error: {str(e)}"

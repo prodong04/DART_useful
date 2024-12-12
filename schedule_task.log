@@ -456,3 +456,83 @@ Alternatively, you can pin your installation to the old version, e.g. `pip insta
 A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
 
 2024-12-03 03:21:46,302 - INFO - Slack notification sent successfully.
+2024-12-03 12:36:14,250 - INFO - Starting DART Crawler...
+2024-12-03 12:37:14,314 - INFO - Market open check at 2024-12-03 12:37:14.314902: Open
+2024-12-03 12:37:14,315 - INFO - Market is open. Starting job.
+2024-12-12 20:15:07,295 - INFO - Starting DART Crawler...
+2024-12-12 20:16:07,358 - INFO - Market open check at 2024-12-12 20:16:07.358655: Closed
+2024-12-12 20:16:07,358 - INFO - Market is closed. Skipping job.
+2024-12-12 20:17:07,420 - INFO - Market open check at 2024-12-12 20:17:07.420481: Closed
+2024-12-12 20:17:07,420 - INFO - Market is closed. Skipping job.
+2024-12-12 20:18:05,249 - INFO - Starting DART Crawler...
+2024-12-12 20:21:48,549 - INFO - Starting DART Crawler...
+2024-12-12 20:21:48,549 - INFO - Market is open. Starting job.
+2024-12-12 20:22:24,336 - INFO - Starting DART Crawler...
+2024-12-12 20:22:24,336 - INFO - Market is open. Starting job.
+2024-12-12 20:22:24,337 - INFO - DartCrawler initialized.
+2024-12-12 20:22:24,337 - INFO - Fetching disclosures from DART API with parameters: {'crtfc_key': '1de1e50669f96282a58dd16a61ddc9acf7d84971', 'bgn_de': '20241212', 'end_de': '20241212', 'page_no': 1, 'page_count': 100}
+2024-12-12 20:22:29,484 - INFO - Disclosures fetched successfully.
+2024-12-12 20:22:29,485 - INFO - Analyzing disclosures: 100 items found.
+2024-12-12 20:22:29,486 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              ('어나프라주(오피란제린염산염)' 식품의약품안전처 품목허가 승인)
+2024-12-12 20:22:29,486 - INFO - Analysis completed: Error: name 'system_input' is not defined
+2024-12-12 20:22:29,486 - INFO - Sending Slack notification with message: Error: name 'system_input' is not defined
+2024-12-12 20:22:34,831 - INFO - Slack notification sent successfully.
+2024-12-12 20:22:34,832 - INFO - Investment-related disclosure found: 투자설명서(일괄신고)
+2024-12-12 20:22:34,833 - INFO - Analysis completed: Error: name 'system_input' is not defined
+2024-12-12 20:22:34,833 - INFO - Sending Slack notification with message: Error: name 'system_input' is not defined
+2024-12-12 20:23:00,738 - INFO - Starting DART Crawler...
+2024-12-12 20:23:00,738 - INFO - Market is open. Starting job.
+2024-12-12 20:23:00,738 - INFO - DartCrawler initialized.
+2024-12-12 20:23:00,738 - INFO - Fetching disclosures from DART API with parameters: {'crtfc_key': '1de1e50669f96282a58dd16a61ddc9acf7d84971', 'bgn_de': '20241212', 'end_de': '20241212', 'page_no': 1, 'page_count': 100}
+2024-12-12 20:23:05,936 - INFO - Disclosures fetched successfully.
+2024-12-12 20:23:05,937 - INFO - Analyzing disclosures: 100 items found.
+2024-12-12 20:23:05,938 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              ('어나프라주(오피란제린염산염)' 식품의약품안전처 품목허가 승인)
+2024-12-12 20:23:05,938 - INFO - Analysis completed: Error: name 'system_input' is not defined
+2024-12-12 20:23:05,938 - INFO - Sending Slack notification with message: Error: name 'system_input' is not defined
+2024-12-12 20:23:36,656 - INFO - Starting DART Crawler...
+2024-12-12 20:23:36,656 - INFO - Market is open. Starting job.
+2024-12-12 20:23:36,656 - INFO - DartCrawler initialized.
+2024-12-12 20:23:36,656 - INFO - Fetching disclosures from DART API with parameters: {'crtfc_key': '1de1e50669f96282a58dd16a61ddc9acf7d84971', 'bgn_de': '20241212', 'end_de': '20241212', 'page_no': 1, 'page_count': 100}
+2024-12-12 20:23:41,804 - INFO - Disclosures fetched successfully.
+2024-12-12 20:23:41,806 - INFO - Analyzing disclosures: 100 items found.
+2024-12-12 20:23:41,807 - INFO - Investment-related disclosure found: 투자판단관련주요경영사항              ('어나프라주(오피란제린염산염)' 식품의약품안전처 품목허가 승인)
+2024-12-12 20:23:41,807 - INFO - Analysis completed: Error: name 'system_input' is not defined
+2024-12-12 20:23:41,807 - INFO - Sending Slack notification with message: Error: name 'system_input' is not defined
+2024-12-12 20:35:38,582 - INFO - Starting DART Crawler...
+2024-12-12 20:35:38,582 - INFO - Market is open. Starting job.
+2024-12-12 20:35:38,582 - INFO - DartCrawler initialized.
+2024-12-12 20:35:38,582 - INFO - Fetching disclosures from DART API with parameters: {'crtfc_key': '1de1e50669f96282a58dd16a61ddc9acf7d84971', 'bgn_de': '20241212', 'end_de': '20241212', 'page_no': 1, 'page_count': 100}
+2024-12-12 20:35:43,782 - INFO - Disclosures fetched successfully.
+2024-12-12 20:35:43,784 - INFO - Analyzing disclosures: 100 items found.
+2024-12-12 20:35:43,784 - INFO - Investment-related disclosure found: [기재정정]기타경영사항(자율공시)              
+2024-12-12 20:35:43,784 - INFO - Sending Slack notification with message: corp_name_성안머티리얼스, ticker_011300, content_[기재정정]기타경영사항(자율공시)              
+2024-12-12 20:35:49,115 - INFO - Slack notification sent successfully.
+2024-12-12 20:35:49,117 - INFO - Investment-related disclosure found: [기재정정]주주총회소집결의              
+2024-12-12 20:35:49,118 - INFO - Sending Slack notification with message: corp_name_성안머티리얼스, ticker_011300, content_[기재정정]주주총회소집결의              
+2024-12-12 20:35:54,436 - INFO - Slack notification sent successfully.
+2024-12-12 20:35:54,438 - INFO - Investment-related disclosure found: 주요사항보고서(회사합병결정)(자회사의 주요경영사항)              
+2024-12-12 20:35:54,439 - INFO - Sending Slack notification with message: corp_name_롯데지주, ticker_004990, content_주요사항보고서(회사합병결정)(자회사의 주요경영사항)              
+2024-12-12 20:35:59,779 - INFO - Slack notification sent successfully.
+2024-12-12 20:35:59,781 - INFO - Investment-related disclosure found: [기재정정]주요사항보고서(유상증자결정)
+2024-12-12 20:35:59,781 - INFO - Sending Slack notification with message: corp_name_성안머티리얼스, ticker_011300, content_[기재정정]주요사항보고서(유상증자결정)
+2024-12-12 20:36:05,098 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:05,100 - INFO - Investment-related disclosure found: [기재정정]주요사항보고서(유상증자결정)
+2024-12-12 20:36:05,101 - INFO - Sending Slack notification with message: corp_name_성안머티리얼스, ticker_011300, content_[기재정정]주요사항보고서(유상증자결정)
+2024-12-12 20:36:10,433 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:10,435 - INFO - Investment-related disclosure found: 정정신고서제출요구( 2024.11.29. 제출 증권신고서(지분증권) )
+2024-12-12 20:36:10,436 - INFO - Sending Slack notification with message: corp_name_큐로홀딩스, ticker_051780, content_정정신고서제출요구( 2024.11.29. 제출 증권신고서(지분증권) )
+2024-12-12 20:36:15,773 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:15,775 - INFO - Investment-related disclosure found: 주식분할결정              
+2024-12-12 20:36:15,776 - INFO - Sending Slack notification with message: corp_name_성안머티리얼스, ticker_011300, content_주식분할결정              
+2024-12-12 20:36:21,110 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:21,112 - INFO - Investment-related disclosure found: 최대주주변경을수반하는주식양수도계약체결              
+2024-12-12 20:36:21,112 - INFO - Sending Slack notification with message: corp_name_이미지스, ticker_115610, content_최대주주변경을수반하는주식양수도계약체결              
+2024-12-12 20:36:26,433 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:26,435 - INFO - Investment-related disclosure found: 불성실공시법인지정예고              (공시불이행)
+2024-12-12 20:36:26,435 - INFO - Sending Slack notification with message: corp_name_씨티씨바이오, ticker_060590, content_불성실공시법인지정예고              (공시불이행)
+2024-12-12 20:36:31,762 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:31,764 - INFO - Investment-related disclosure found: 불성실공시법인지정예고              (공시번복)
+2024-12-12 20:36:31,764 - INFO - Sending Slack notification with message: corp_name_소프트센, ticker_032680, content_불성실공시법인지정예고              (공시번복)
+2024-12-12 20:36:37,089 - INFO - Slack notification sent successfully.
+2024-12-12 20:36:37,091 - INFO - Investment-related disclosure found: 주주명부폐쇄기간또는기준일설정              
+2024-12-12 20:36:37,092 - INFO - Sending Slack notification with message: corp_name_씨티케이, ticker_260930, content_주주명부폐쇄기간또는기준일설정              
